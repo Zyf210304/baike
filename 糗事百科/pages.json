@@ -1,9 +1,21 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		
+		{
+		    "path" : "pages/DemoPage/actionDemo/actionDemo",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/DemoPage/listDataDemo/listDataDemo",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/DemoPage/flexDemo/flexDemo",
+		    "style" : {}
+		},
 		
 		{
-		    "path" : "pages/demo/demo",
+		    "path" : "pages/DemoPage/demo/demo",
 		    "style" : {
 				"navigationBarTitleText":"view和text组件"
 			}
@@ -32,6 +44,24 @@
 				// "navigationBarTitleText": "uni-app"
 			}
 		}
+        ,{
+            "path" : "pages/DemoPage/listenDemo/listenDemo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/DemoPage/calculateDemo/calculateDemo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
